@@ -19,7 +19,7 @@ export default {};
     </div>
     <div class="lg:flex gap-5">
       <div
-        class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 dark:bg-teal-400"
+        class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 mb-10 dark:bg-teal-400"
       >
         <img src="/design.png" alt="" class="w-32 mx-auto" />
         <h3 class="text-lg font-medium pt-8 pb-2">Beautiful design</h3>
@@ -33,7 +33,7 @@ export default {};
         <p class="text-gray-800 py-1 dark:text-white">figma</p>
       </div>
       <div
-        class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 dark:bg-teal-400"
+        class="text-center shadow-xl p-10 rounded-xl py-10 mb-10 lg:w-1/3 dark:bg-teal-400"
       >
         <img src="/code.png" alt="" class="w-32 mx-auto" />
         <h3 class="text-lg font-medium pt-8 pb-2">Beautiful design</h3>
@@ -47,7 +47,7 @@ export default {};
         <p class="text-gray-800 py-1 dark:text-white">figma</p>
       </div>
       <div
-        class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 dark:bg-teal-400"
+        class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 lg:mb-10 dark:bg-teal-400"
       >
         <img src="/consulting.png" alt="" class="w-32 mx-auto" />
         <h3 class="text-lg font-medium pt-8 pb-2">Beautiful design</h3>
