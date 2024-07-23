@@ -8,13 +8,26 @@ export default {
     Main,
     Portfolio,
   },
+  data() {
+    return {
+      darkMode: false,
+    };
+  },
+  methods: {
+    toggleDarkMode() {
+      this.darkMode = !this.darkMode;
+      console.log(this.darkMode);
+    },
+  },
 };
 </script>
 
 <template>
-  <Header />
-  <Main />
-  <Portfolio />
+  <div :class="darkMode ? 'dark' : ''">
+    <Header @darkMode="toggleDarkMode" />
+    <Main />
+    <Portfolio />
+  </div>
 </template>
 
 <style lang="scss" scoped></style>
