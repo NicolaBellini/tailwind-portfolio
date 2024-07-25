@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <div class="px-10 md:px-20 lg:px-40 dark:bg-slate-900 dark:text-white">
-    <div class="pt-10">
+    <div class="pt-10 translate-y-[100px]">
       <h3 class="text-3xl py-2">Services I offer</h3>
       <p class="text-md py-2 leading-8 text-gray-700 dark:text-white mb-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -17,7 +17,7 @@ export default {};
         repellendus quam hic. Aperiam autem soluta fugit quis illum!
       </p>
     </div>
-    <div class="lg:flex gap-5">
+    <div class="lg:flex gap-5 pt-[100px]">
       <div
         class="text-center shadow-xl p-10 rounded-xl py-10 lg:w-1/3 mb-10 dark:bg-teal-400"
       >

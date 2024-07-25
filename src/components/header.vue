@@ -9,7 +9,10 @@ export default {};
         <h1 class="text-xl font-thin">developedbyNic</h1>
         <ul class="flex items-center">
           <li @click="$emit('darkMode')">
-            <i class="fa-solid fa-moon cursor-pointer text-xl"></i>
+            <i class="fa-solid fa-moon cursor-pointer text-xl dark:hidden"></i>
+            <i
+              class="fa-solid fa-sun cursor-pointer text-xl hidden dark:block"
+            ></i>
           </li>
           <li>
             <a
